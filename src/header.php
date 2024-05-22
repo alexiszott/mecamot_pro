@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse justify-content-end mx-5" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php#top_page">Accueil</a>
+                        <a class="nav-link" href="../index.php#top_page">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">

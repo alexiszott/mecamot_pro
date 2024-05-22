@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'header.php';
+include 'src/header.php';
 ?>
 
     <section id='main_image'>
@@ -66,13 +66,13 @@ include 'header.php';
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../img/motoculture/motoculture_1.jpg" class="d-block w-100 rounded-3" alt="...">
+                                <img src="img/motoculture/motoculture_1.jpg" class="d-block w-100 rounded-3" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/motoculture/motoculture_2.jpg" class="d-block w-100 rounded-3" alt="...">
+                                <img src="img/motoculture/motoculture_2.jpg" class="d-block w-100 rounded-3" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="../img/motoculture/motoculture_3.jpg" class="d-block w-100 rounded-3" alt="...">
+                                <img src="img/motoculture/motoculture_3.jpg" class="d-block w-100 rounded-3" alt="...">
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ include 'header.php';
                         </p>
                     </div>
                     <div class='col-md-4 px-5 y-auto justify-content-center'>
-                        <img src="../img/moto/moto_1.jpg" id="moto_img"
+                        <img src="img/moto/moto_1.jpg" id="moto_img"
                              class="d-block w-100 shadow rounded-3"
                              alt="">
                     </div>
@@ -155,7 +155,7 @@ include 'header.php';
                         </tr>
                         </thead>
 
-                        <form action='send_email.php' method='post'>
+                        <form action='src/send_email.php' method='post'>
 
                             <tr>
                                 <th><input class='m-2 form-control' type='text' placeholder='Nom'
@@ -214,10 +214,10 @@ include 'header.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js" defer></script>
-    <script src="../dist/js/floatingUi/core.js" defer></script>
-    <script src="../dist/js/floatingUi/dom.js" defer></script>
-    <script src="../dist/js/carousel.js" defer></script>
-    <script src="../dist/js/anim_element.js" defer></script>
+    <script src="dist/js/floatingUi/core.js" defer></script>
+    <script src="dist/js/floatingUi/dom.js" defer></script>
+    <script src="dist/js/carousel.js" defer></script>
+    <script src="dist/js/anim_element.js" defer></script>
 
     <script>
         document.getElementById('mapContainer').addEventListener('click', function () {
@@ -229,5 +229,5 @@ include 'header.php';
     </script>
 
 <?php
-include 'footer.php';
+include 'src/footer.php';
 ?>
